@@ -9,14 +9,34 @@
 public class Module
 {
     // instance variables - replace the example below with your own
+    
     private  String Code;
+    
     private  String title;
+    
+    private  int credit;
 
     /**
      * Constructor for objects of class Module
      */
-    public Module()
+    public Module(String Code, String title)
     {
+        credit = 15;
+        this.Code = Code;
+        this.title = title;
+    }
+    public String getCode()
+
+    {
+        return Code;
+    }
+    public String gettitle()
+    {
+        return title;
+    }
+    public void setCredit(int credit)
+    {
+        this.credit= credit;
     }
 
     /**
@@ -27,7 +47,8 @@ public class Module
     {
        printHeading();
         
-        System.out.println(" Module Code: " + Code + ": " + title);
+        System.out.println(" Module Code: " + Code + ": " 
+        + title + "credit"+ credit);
         System.out.println(); 
         
     }    /**
