@@ -1,6 +1,6 @@
 
 /**
- * This class models a BNY module forms part
+ * This class models a BNU module which forms part
  * of a course.
  *
  * @author Eunita Da Silva
@@ -9,26 +9,35 @@
 public class Module
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private  String Code;
+    private  String title;
 
     /**
      * Constructor for objects of class Module
      */
     public Module()
     {
-        // initialise instance variables
-        x = 0;
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * This method will print out the Module code and 
+     * title
      */
-    public int sampleMethod(int y)
+    public void print()
     {
-        // put your code here
-        return x + y;
+       printHeading();
+        
+        System.out.println(" Module Code: " + Code + ": " + title);
+        System.out.println(); 
+        
+    }    /**
+     * Print out the details of the course to the terminal.
+     */
+    private void printHeading()
+    {
+        System.out.println(" --------------------------------");
+        System.out.println("   App211: Module Details");
+        System.out.println(" --------------------------------");
+        System.out.println();
     }
-}
+}   
