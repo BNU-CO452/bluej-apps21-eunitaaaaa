@@ -5,6 +5,7 @@
  * 
  * @author Michael Kölling and David Barnes
  * @modified by Derek Peacock and Nicholas Day
+ * @author Eunita Da Silva
  * @version 2021:08:15
  */
 public class Student
