@@ -3,8 +3,6 @@ import java.util.*;
 /**
  * This class contains information about an undergraduate course
  * at BNU together with a list of student who are enrolled
- *
- * @author Derek Peacock
  * @author Eunita Da Silva
  * @version 1.0 14/07/2021
  */
@@ -36,8 +34,8 @@ public class Course
     {
         printHeading();
         
-        System.out.println(" Course Code: " + code + ": " + title);
-        
+        System.out.println(" Course Code: " + code + ": "+ title);
+
     }
     
     /**
@@ -51,7 +49,7 @@ public class Course
         System.out.println();
     }
     
-    public void addModule(Module module)
+    public void add(Module module)
     {
         this.module= module;
     }
@@ -63,6 +61,7 @@ public class Course
     {
         print();
     }
+
 }
 
     

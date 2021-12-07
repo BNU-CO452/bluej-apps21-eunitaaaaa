@@ -21,9 +21,10 @@ public class Module
      */
     public Module(String Code, String title)
     {
-        credit = 0;
         this.Code = Code;
         this.title = title;
+        credit = 0;
+        
     }
     public String getCode()
 
@@ -49,20 +50,10 @@ public class Module
      */
     public void print()
     {
-       printHeading();
         
         System.out.println(" Module Code: " + Code + ": " +  title);
         System.out.println("Credits: "  + credit); 
         System.out.println(); 
-        
-    }    /**
-     * Print out the details of the course to the terminal.
-     */
-    private void printHeading()
-    {
-        System.out.println(" --------------------------------");
-        System.out.println("   App211: Module Details");
-        System.out.println(" --------------------------------");
-        System.out.println();
     }
-}   
+    
+    }  
