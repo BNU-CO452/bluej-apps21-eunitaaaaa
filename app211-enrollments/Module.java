@@ -21,18 +21,22 @@ public class Module
      */
     public Module(String Code, String title)
     {
-        credit = 15;
+        credit = 0;
         this.Code = Code;
         this.title = title;
     }
     public String getCode()
 
     {
-        return Code;
+        return this. Code;
     }
     public String gettitle()
     {
-        return title;
+        return this.title;
+    }
+    public int getCredit()
+    {
+     return this. credit;
     }
     public void setCredit(int credit)
     {
@@ -48,7 +52,7 @@ public class Module
        printHeading();
         
         System.out.println(" Module Code: " + Code + ": " +  title);
-        System.out.println("Credits for; " + title + ":" + credit); 
+        System.out.println("Credits: "  + credit); 
         System.out.println(); 
         
     }    /**
