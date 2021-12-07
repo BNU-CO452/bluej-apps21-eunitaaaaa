@@ -47,8 +47,8 @@ public class Module
     {
        printHeading();
         
-        System.out.println(" Module Code: " + Code + ": " 
-                        +  title  + "credit" + credit); 
+        System.out.println(" Module Code: " + Code + ": " +  title);
+        System.out.println("Credits for; " + title + ":" + credit); 
         System.out.println(); 
         
     }    /**
