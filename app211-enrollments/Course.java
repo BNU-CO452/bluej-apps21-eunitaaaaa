@@ -1,4 +1,3 @@
-import java.util.*;
 
 /**
  * This class contains information about an undergraduate course
@@ -35,7 +34,7 @@ public class Course
         printHeading();
         
         System.out.println(" Course Code: " + code + ": "+ title);
-
+        
     }
     
     /**
