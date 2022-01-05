@@ -103,8 +103,12 @@ public class Student
     }
     
     private void printModules()
-    {
-
+    { 
+        for(ModuleMark moduleMark: marks)
+        {
+            moduleMark.print();
+        }
+        
     }
     
     public void printTranscript()
@@ -122,6 +126,7 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
+        printModules();
        
         Grades finalGrade = course.calculateGrade(marks);
         
