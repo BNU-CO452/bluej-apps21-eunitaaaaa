@@ -19,7 +19,7 @@ public class Course
      
     public Course()
     {
-        this("G400", "BSc Computing");
+        this("BB1BMI1", "BSc Business Management and Information Technology");
     }
     
     /**
@@ -89,6 +89,11 @@ public class Course
      */
     public void printModules()
     {
-        System.out.println();
+    for (Module module: modules)
+        { 
+           module.print();
+        }
     }
 }
+
+
