@@ -42,8 +42,16 @@ public class Course
      * must be your four modules.
      */
     public void createModules()
-    {
-
+    { 
+        Module co452 = new Module("CO452", "Programming Concepts");
+        Module co450 = new Module("CO450", "Computer Architecture");
+        Module co456 = new Module("Co456", "Web Development");
+        Module co451 = new Module("Co451", "Networking");
+        addModule(co452);
+        addModule(co450);
+        addModule(co456);
+        addModule(co451);
+        
     }
     
     public void addModule(Module module)
