@@ -5,6 +5,7 @@ import java.util.*;
  * 
  * @author Michael Kölling and David Barnes
  * Modified by Derek Peacock & Nicholas Day
+ * @Eunita Da Silva 22046114
  * @version 2021-08-18
  */
 public class Student
@@ -72,10 +73,8 @@ public class Student
         {
             ModuleMark mark= new ModuleMark(module);
             mark.setMark(value);
-            
-            value=value - 10;
-            
-            marks.add(mark);
+            value = value - 10;
+            marks. add(mark);
         }
     }
     
