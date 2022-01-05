@@ -1,0 +1,123 @@
+Student eunita = new Student();
+eunita.print();
+ Student ID: 22046114, Eunita
+Course BusinessManagementandInformationTechnology = new Course();
+eunita.enrol(BusinessManagementandInformationTechnology);
+eunita.printCourse();
+ Student ID: 22046114, Eunita
+
+ Course BB1BMI1: BSc Business Management and Information Technology
+Module co452 = new Module("CO452", "Programming Concepts");
+BusinessManagementandInformationTechnology.addModule(co452);
+ModuleMark eunitaCo452Mark = new ModuleMark(co452);
+eunitaCo452Mark.setMark(85);
+eunita.addMark(eunitaCo452Mark);
+eunita.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Eunita
+ ------------------------------------
+ Student ID: 22046114, Eunita
+
+ Course BB1BMI1: BSc Business Management and Information Technology
+
+ CO452: 	Programming Concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	85	A
+
+
+ Final Course Grade = F
+Module co450 = new Module("CO450", "Computer Architecture");
+BusinessManagementandInformationTechnology.addModule(co450);
+ModuleMark eunitaCo450Mark = new ModuleMark(co450);
+eunitaCo450Mark.setMark(78);
+eunita.addMark(eunitaCo450Mark);
+eunita.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Eunita
+ ------------------------------------
+ Student ID: 22046114, Eunita
+
+ Course BB1BMI1: BSc Business Management and Information Technology
+
+ CO452: 	Programming Concepts	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	85	A
+
+ CO450: 	Computer Architecture	  15	78	A
+
+
+ Final Course Grade = D
+Module co456 = new Module("CO456", "Web Development");
+BusinessManagementandInformationTechnology.addModule(co456);
+ModuleMark eunitaCo456Mark = new ModuleMark(co456);
+eunitaCo456Mark.setMark(69);
+eunita.addMark(eunitaCo456Mark);
+eunita.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Eunita
+ ------------------------------------
+ Student ID: 22046114, Eunita
+
+ Course BB1BMI1: BSc Business Management and Information Technology
+
+ CO452: 	Programming Concepts	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+ CO456: 	Web Development	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	85	A
+
+ CO450: 	Computer Architecture	  15	78	A
+
+ CO456: 	Web Development	  15	69	B
+
+
+ Final Course Grade = C
+Module co451 = new Module("CO451", "Networking");
+BusinessManagementandInformationTechnology.addModule(co451);
+ModuleMark eunitaCo451Mark = new ModuleMark(co451);
+eunitaCo451Mark.setMark(90);
+eunita.addMark(eunitaCo451Mark);
+eunita.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Eunita
+ ------------------------------------
+ Student ID: 22046114, Eunita
+
+ Course BB1BMI1: BSc Business Management and Information Technology
+
+ CO452: 	Programming Concepts	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+ CO456: 	Web Development	  15 credits
+ CO451: 	Networking	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	85	A
+
+ CO450: 	Computer Architecture	  15	78	A
+
+ CO456: 	Web Development	  	15	69	B
+
+ CO451: 	Networking	  15	90	A
+
+
+ Final Course Grade = A
