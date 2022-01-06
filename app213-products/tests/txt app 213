@@ -1,0 +1,117 @@
+StockDemo Phones = new StockDemo();
+
+ Eunita's Stock List
+ ====================
+
+ ID 1: Samsung Galaxy S20 stock level: 0
+ ID 2: Apple iPhone 12 stock level: 0
+ ID 3: Google Pixel 4A stock level: 0
+ ID 4: Huawei 377  stock level: 0
+ ID 5: One Plus 9 stock level: 0
+ ID 6: Apple iPhone 13 stock level: 0
+ ID 7: Samsung Galaxy Z Fold stock level: 0
+ ID 8: Honor 50 stock level: 0
+ ID 9: Motorola Edge stock level: 0
+ ID 10: Xiaomi 11  stock level: 0
+
+Bought424ofSamsung Galaxy S20
+Bought500ofApple iPhone 12
+Bought880ofGoogle Pixel 4A
+Bought24ofHuawei 377 
+Bought39ofOne Plus 9
+Bought990ofApple iPhone 13
+Bought3450ofSamsung Galaxy Z Fold
+Bought400ofHonor 50
+Bought1110ofMotorola Edge
+Bought702ofXiaomi 11 
+
+ Eunita's Stock List
+ ====================
+
+ ID 1: Samsung Galaxy S20 stock level: 424
+ ID 2: Apple iPhone 12 stock level: 500
+ ID 3: Google Pixel 4A stock level: 880
+ ID 4: Huawei 377  stock level: 24
+ ID 5: One Plus 9 stock level: 39
+ ID 6: Apple iPhone 13 stock level: 990
+ ID 7: Samsung Galaxy Z Fold stock level: 3450
+ ID 8: Honor 50 stock level: 400
+ ID 9: Motorola Edge stock level: 1110
+ ID 10: Xiaomi 11  stock level: 702
+
+Sold300ofSamsung Galaxy S20
+Sold278ofApple iPhone 12
+Can't sell5690ofGoogle Pixel 4Abecause only have 880
+Can't sell1100ofHuawei 377 because only have 24
+Can't sell684ofOne Plus 9because only have 39
+Sold320ofApple iPhone 13
+Sold550ofSamsung Galaxy Z Fold
+Sold160ofMotorola Edge
+Sold490ofXiaomi 11 
+
+ Eunita's Stock List
+ ====================
+
+ ID 1: Samsung Galaxy S20 stock level: 124
+ ID 2: Apple iPhone 12 stock level: 222
+ ID 3: Google Pixel 4A stock level: 880
+ ID 4: Huawei 377  stock level: 24
+ ID 5: One Plus 9 stock level: 39
+ ID 6: Apple iPhone 13 stock level: 670
+ ID 7: Samsung Galaxy Z Fold stock level: 2900
+ ID 8: Honor 50 stock level: 400
+ ID 9: Motorola Edge stock level: 950
+ ID 10: Xiaomi 11  stock level: 212
+
+
+ Eunita's Stock List
+ ====================
+
+ ID 3: Google Pixel 4A stock level: 880
+ ID 4: Huawei 377  stock level: 24
+ ID 5: One Plus 9 stock level: 39
+ ID 6: Apple iPhone 13 stock level: 670
+ ID 7: Samsung Galaxy Z Fold stock level: 2900
+ ID 8: Honor 50 stock level: 400
+ ID 9: Motorola Edge stock level: 950
+ ID 10: Xiaomi 11  stock level: 212
+
+Name search list
+
+ Eunita's Stock List
+ ====================
+
+ ID 3: Google Pixel 4A stock level: 880
+ ID 4: Huawei 377  stock level: 24
+ ID 5: One Plus 9 stock level: 39
+ ID 6: Apple iPhone 13 stock level: 670
+ ID 7: Samsung Galaxy Z Fold stock level: 2900
+ ID 8: Honor 50 stock level: 400
+ ID 9: Motorola Edge stock level: 950
+ ID 10: Xiaomi 11  stock level: 212
+
+ ID 4: Huawei 377  stock level: 24stock is getting low
+ ID 5: One Plus 9 stock level: 39stock is getting low
+
+ Eunita's Stock List
+ ====================
+
+ ID 3: Google Pixel 4A stock level: 880
+ ID 4: Huawei 377  stock level: 24
+ ID 5: One Plus 9 stock level: 39
+ ID 6: Apple iPhone 13 stock level: 670
+ ID 7: Samsung Galaxy Z Fold stock level: 2900
+ ID 8: Honor 50 stock level: 400
+ ID 9: Motorola Edge stock level: 950
+ ID 10: Xiaomi 11  stock level: 212
+
+Stock is replenished
+
+ ID 3: Google Pixel 4A stock level: 880
+ ID 4: Huawei 377  stock level: 1024
+ ID 5: One Plus 9 stock level: 1039
+ ID 6: Apple iPhone 13 stock level: 670
+ ID 7: Samsung Galaxy Z Fold stock level: 2900
+ ID 8: Honor 50 stock level: 400
+ ID 9: Motorola Edge stock level: 950
+ ID 10: Xiaomi 11  stock level: 212
