@@ -1,4 +1,4 @@
-
+import java.util.Random;
 /**
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
@@ -11,6 +11,8 @@ public class StockDemo
 {
     // The stock manager.
     private StockList stock;
+    
+    private Random generator = new Random();
 
     /**
      * Create a StockManager and populate it with at least
@@ -26,6 +28,14 @@ public class StockDemo
         stock.add(new Product(101, "Samsung Galaxy S20"));
         stock.add(new Product(102, "Apple iPhone 12"));
         stock.add(new Product(103, "Google Pixel 4A"));
+        stock.add(new Product(104, "Huawei 377 "));
+        stock.add(new Product(105, "Apple iPhone 13"));
+        stock.add(new Product(106, "Huawei P40 Pro"));
+        stock.add(new Product(107, "Samsung Galaxy S21"));
+        stock.add(new Product(108, "Apple iPhone 11"));
+        stock.add(new Product(109, "Samsung Galaxy Note 20 "));
+        stock.add(new Product(110, "One Plus 9 Pro"));
+        
     }
     
     /**
