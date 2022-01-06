@@ -139,6 +139,57 @@ public class StockList
     {
         return 0;
     }
+    
+    /**
+     * Finds products according to the name
+     */
+    public Product findName(String productName)
+    {
+        for(Product product: stock)
+        {
+            if(product.getName() == productName)
+            System.out.println(product);
+        }
+        return null;
+    }
+    /**
+     * finds product from list and removes it from the list if not found
+     * return to null.
+     */
+    public void removeProduct(int productID)
+    {
+        Product product = findProduct(productID);
+        product = product;
+        stock.remove(product);
+        
+    } 
+    /**
+     * Checks the stock in each product and if found lower than the specified it 
+     * will be displayed
+     */
+    public Product checkProduct(int productID)
+    {
+        for (Product product : stock)
+        {
+            if (product.getQuantity() <=50)
+            System.out.println(product + "stock is getting low");
+        }
+        return null;
+    }
+    /**
+     * Restocks the products if it gets low
+     */
+    public Product restockProduct(int productId,int amount)
+    {
+        for (Product product : stock)
+        {
+            if (product.getQuantity() <= 50)
+            product.increaseQuantity(amount);
+            System.out.println(product);
+        }
+        return null;
+    }
+    
 
     /**
      * Print details of the given product. If found,
