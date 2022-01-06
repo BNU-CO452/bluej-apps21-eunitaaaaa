@@ -1,0 +1,24 @@
+Product samsunggalaxys20 = new Product(101, "Samsung Galaxy S20");
+samsunggalaxys20.print();
+ ID 101: Samsung Galaxy S20 stock level: 0
+samsunggalaxys20.decreaseQuantity(5);
+samsunggalaxys20.print();
+ ID 101: Samsung Galaxy S20 stock level: 0
+samsunggalaxys20.increaseQuantity(10);
+samsunggalaxys20.print();
+ ID 101: Samsung Galaxy S20 stock level: 10
+samsunggalaxys20.decreaseQuantity(5);
+samsunggalaxys20.print();
+ ID 101: Samsung Galaxy S20 stock level: 5
+Product appleiphone12 = new Product(102, "Apple iPhone 12");
+StockList stockList = new StockList();
+stockList.add(samsunggalaxys20);
+stockList.add(appleiphone12);
+stockList.print();
+
+ Eunita's Stock List
+ ====================
+
+ ID 101: Samsung Galaxy S20 stock level: 5
+ ID 102: Apple iPhone 12 stock level: 0
+
