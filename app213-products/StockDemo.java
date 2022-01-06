@@ -18,9 +18,9 @@ public class StockDemo
      * Create a StockManager and populate it with at least
      * 10 sample products.
      */
-    public StockDemo(StockList stock)
+    public StockDemo()
     {
-        this.stock = stock;
+        this.stock = new StockList();
         
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
@@ -29,12 +29,8 @@ public class StockDemo
         stock.add(new Product(102, "Apple iPhone 12"));
         stock.add(new Product(103, "Google Pixel 4A"));
         stock.add(new Product(104, "Huawei 377 "));
-        stock.add(new Product(105, "Apple iPhone 13"));
-        stock.add(new Product(106, "Huawei P40 Pro"));
-        stock.add(new Product(107, "Samsung Galaxy S21"));
-        stock.add(new Product(108, "Apple iPhone 11"));
-        stock.add(new Product(109, "Samsung Galaxy Note 20 "));
-        stock.add(new Product(110, "One Plus 9 Pro"));
+        
+        runDemo();
         
     }
     
@@ -60,9 +56,17 @@ public class StockDemo
     
     private void buyProducts()
     {
+        stock.buyProduct(101,500);
+        stock.buyProduct(102,300);
+        stock.buyProduct(103,200);
+        stock.buyProduct(104,100);
     }
 
     private void sellProducts()
     {
+        stock.sellProduct(101,300);
+        stock.sellProduct(102,400);
+        stock.sellProduct(103,500);
+        stock.sellProduct(104,100);
     }    
 }
