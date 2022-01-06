@@ -126,6 +126,11 @@ public class StockList
             System.out.println("Couldn't find product");
         }
     }    
+    public void search (String phrase)
+    {
+        if (phrase.contains("Samsung"));
+
+    }
 
     
     /**
